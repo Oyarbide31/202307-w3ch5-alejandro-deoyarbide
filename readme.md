@@ -21,3 +21,16 @@ Desde los favoritos, también se puede acceder a la página de detalle.
 
 Features
 Opcional: BEM + sass Vite HTML semántico Testing
+
+---
+
+1º He creado el header, le faltan los estilos
+2º He creado el footer, le faltan los estilos tambien ( no se por que le pase size 50 y no se me queda reducido)
+
+3º Vamos a tratar de lograr llamar al servidor de los pokemons.
+Desgranandolo:
+
+    3.1 Tenemos el componente Carta
+    3.2 Tendremos que tener en algun sitio la llamda a esa base de datos
+    3.3 ¿que vamos a tener dentro? una tarjeta pokemon, por lo que tendremos que tener un objeto CartaPokemon
+    creado al que luego le puedes dar los estilos.

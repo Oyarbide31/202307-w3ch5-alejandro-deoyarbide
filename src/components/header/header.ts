@@ -16,7 +16,7 @@ export class Header extends Component {
 <nav>
   <ul>
     <li>Mundo Pokemon</li>
-    <li>Detaññe de cada pokemon</li>
+    <li>Detalle de cada pokemon</li>
     <li>Tus pokemon capturados</li>
   </ul>
 </nav>
