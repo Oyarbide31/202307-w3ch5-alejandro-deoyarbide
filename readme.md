@@ -1,50 +1,23 @@
-# Week3: TS
+### Week 3 - Challenge WeekEnd
 
-## Installation
+Logo Pokémon
 
-- eslint & TS
+Pokémon
+Esta aplicación tendrá tres páginas:
 
-```shell
-npx eslint --init
+Todos los pokémon
+Detalle de pokémon
+El listado de todos los pokémon se alimentará de la PokéAPI, y deberá ir paginado. El listado incluirá el nombre del pokemon y su imagen y deberá ir acompañado de dos botones, para avanzar y retroceder de página. También debe mostrar el total de pokèmon mostrados vs. el total de pokèmon que existen (p.e. 10/1000).
 
-Consecuencia
-npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-xo
-```
+El usuario debería poder ir al detalle de un pokémon, donde se le mostrarán más datos. A esta página de detalle se llega pasando una id por la URL (la id del pokémon que queremos ver).
 
-- eslint + prettier
+Extra
+Añadir una tercera página:
 
-```shell
-npm i -D eslint-config-prettier
-```
+Mis pokémon
+El usuario debe poder añadir los pokémon que quiera a su listado local. El listado de Mis pokémon se alimentará de [una API local]. El usuario debería poder eliminar pokémon de su listado local, y también modificar algún/unos dato/s.
 
-- TS
+Desde los favoritos, también se puede acceder a la página de detalle.
 
-```shell
-npm i -D typescript
-```
-
-- config TS
-
-```shell
-npx tsc --init
-```
-
-- Jest
-
-```shell
-
-npm i -D jest ts-jest @types/jest @types/node jest-ts-webcompat-resolver
-
-```
-
-jest-DOM environment
-
-```shell
-npm i -D jest-environment-jsdom 
-```
-
-Testing-library
-
-```shell
-npm i -D @testing-library/dom @testing-library/jest-dom @testing-library/user-event
-```
+Features
+Opcional: BEM + sass Vite HTML semántico Testing
