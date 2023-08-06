@@ -1,3 +1,28 @@
+header {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  margin: 0px;
+  background-color: rgb(232, 191, 12);
   flex: auto;
+  padding: 10px;
+}
+
+#img_pokemon {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#img_footer {
+  width: 50px;
+  height: auto;
 }

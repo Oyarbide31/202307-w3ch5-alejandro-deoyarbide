@@ -10,9 +10,9 @@ export class Footer extends Component {
   showTemplate() {
     return `
       <footer>
-    <img src="pikachu.png" sizes="50" alt="icono pikachu">
-    <img src="instagram.png" sizes="50" alt="icono ig"/>
-    <img src="pikachu.png" sizes="50" alt="icono pikachu">
+    <img src="pikachu.png" id="img_footer" alt="icono pikachu">
+   <img src="pikachu.png" id="img_footer" alt="icono pikachu">
+    <img src="pikachu.png" id="img_footer" alt="icono pikachu">
   </footer>;
 
     `;

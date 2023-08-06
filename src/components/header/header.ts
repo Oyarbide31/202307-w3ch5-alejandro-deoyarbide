@@ -10,7 +10,7 @@ export class Header extends Component {
   showTemplate() {
     return `
     <header class="header"> 
-    <img src="pokemon-logo.svg" alt="titulo de pokemon" /> 
+    <img src="pokemon-logo.svg" id="img_pokemon" alt="titulo de pokemon" /> 
     <h1> Accede a tu PokeApi</h1>
 
 <nav>
